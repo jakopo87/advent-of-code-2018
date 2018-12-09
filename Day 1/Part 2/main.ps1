@@ -15,17 +15,3 @@ do {
         $freq[$sum] = $true
     }
 } while ($isFound -match $false)
-
-# $nums = [int[]](gc .\input.txt)
-# $lookup = @{}
-# $current = 0
-# while ($true) { 
-#     $nums.foreach{ 
-#         $current += $_
-#         if ($lookup.ContainsKey($current)) {
-#             break
-#         }
-#         $lookup[$current]++; 
-#     } 
-# }
-# $current
