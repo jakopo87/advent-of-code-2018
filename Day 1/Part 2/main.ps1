@@ -1,4 +1,4 @@
-$content = Get-Content -Path ($PSScriptRoot + "\input.txt")
+$content = Get-Content -Path ($PSScriptRoot + "\..\input.txt")
 $list = $content.Split([System.Environment]::NewLine)
 $sum = 0;
 $freq = @{}

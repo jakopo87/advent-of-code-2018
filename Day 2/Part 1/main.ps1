@@ -1,4 +1,4 @@
-$content = Get-Content -Path ($PSScriptRoot + "\input.txt")
+$content = Get-Content -Path ($PSScriptRoot + "\..\input.txt")
 $list = $content.Split([System.Environment]::NewLine)
 $checksum = $(0, 0)
 $length = $(2, 3)

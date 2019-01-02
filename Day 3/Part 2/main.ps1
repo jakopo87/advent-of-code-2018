@@ -1,4 +1,4 @@
-$content = Get-Content -Path ($PSScriptRoot + "\input.txt")
+$content = Get-Content -Path ($PSScriptRoot + "\..\input.txt")
 $regex = [regex]::new("#(\d+) @ (\d+),(\d+): (\d+)x(\d+)")
 $timer = [System.Diagnostics.Stopwatch]::StartNew()
 

@@ -1,4 +1,4 @@
-$content = Get-Content -Path ($PSScriptRoot + "\input.txt")
+$content = Get-Content -Path ($PSScriptRoot + "\..\input.txt")
 
 for ($i = 0; $i -lt $content.Count - 1; $i++) {
     $l1 = $content[$i]

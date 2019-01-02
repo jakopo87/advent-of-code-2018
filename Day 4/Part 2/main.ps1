@@ -1,4 +1,4 @@
-$content = Get-Content -Path ($PSScriptRoot + "\input.txt") | Sort-Object
+$content = Get-Content -Path ($PSScriptRoot + "\..\input.txt") | Sort-Object
 
 $list = @()
 $item = $null
